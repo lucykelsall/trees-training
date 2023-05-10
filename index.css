@@ -55,11 +55,11 @@ nav {
     background-color: #333;
 }
 
-navbar-section {
+.navbar-section {
     float: left;
 }
 
-navbar-section a {
+.navbar-section a {
     display: block;
     color: white;
     text-align: center;
@@ -67,7 +67,7 @@ navbar-section a {
     text-decoration: none;
 }
 
-navbar-section a:hover:not(.active) {
+.navbar-section a:hover:not(.active) {
     background-color: #111;
 }
 
