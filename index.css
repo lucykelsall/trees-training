@@ -1,76 +1,76 @@
 form {
-    width: 35em;
-    padding: 1em;
-    border: 0.2em solid #ccc;
-    border-radius: 2em;
+	width: 35rem;
+	padding: 1rem;
+	border: 0.2rem solid #ccc;
+	border-radius: 2rem;
 }
 
 .form-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 form li + li {
-    margin-top: 1em;
+	margin-top: 1rem;
 }
 
 label {
-    display: inline-block;
-    width: 10em;
-    text-align: right;
+	display: inline-block;
+	width: 10rem;
+	text-align: right;
 }
 
 input,
 textarea {
-    font: 1em sans-serif;
-    width: 25em;
-    box-sizing: border-box;
-    border: 0.1em solid #999;
+	font: 1rem sans-serif;
+	width: 25rem;
+	box-sizing: border-box;
+	border: 0.1rem solid #999;
 }
 
 input:focus,
 textarea:focus {
-    border-color: #000;
+	border-color: #000;
 }
 
 textarea {
-    vertical-align: top;
-    height: 5em;
+	vertical-align: top;
+	height: 5rem;
 }
 
 .button {
-    padding-left: 10em;
+	padding-left: 10rem;
 }
 
 button {
-    margin-left: 0.5em;
+	margin-left: 0.5rem;
 }
 
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
 
-    .navbar-section {
-        float: left;
-    }
+	.navbar-section {
+		float: left;
+	}
 
-    .navbar-section a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+	.navbar-section a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
 
-    .navbar-section a:hover:not(.active) {
-        background-color: #111;
-    }
+	.navbar-section a:hover:not(.active) {
+		background-color: #111;
+	}
 
-    .active {
-        background-color: #04aa6d;
-    }
+	.active {
+		background-color: #04aa6d;
+	}
 }
