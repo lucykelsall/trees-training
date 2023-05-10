@@ -21,6 +21,10 @@ label {
 	text-align: right;
 }
 
+list {
+	list-style-type: none;
+}
+
 input,
 textarea {
 	font: 1rem sans-serif;
