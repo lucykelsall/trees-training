@@ -1,5 +1,5 @@
 .header {
-  padding-left: 1rem;
+  padding: 0.5rem 1rem 0;
 }
 
 .body {
@@ -39,7 +39,7 @@
   gap: 1rem;
 }
 .grid-container .grid-item {
-  padding: 0.2rem 1rem 1rem;
+  padding: 0 1rem 1rem;
   border: 0.2rem solid #229954;
   border-radius: 2rem;
   background-color: #abebc6;
