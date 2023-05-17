@@ -20,7 +20,7 @@
 }
 .navbar .navbar-section a {
   display: block;
-  color: #ccc;
+  color: #fdfefe;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,7 +29,7 @@
   background-color: #000;
 }
 .navbar .active {
-  background-color: #04aa6d;
+  background-color: #229954;
 }
 
 .form {
@@ -48,7 +48,8 @@
   font: 1rem sans-serif;
   width: 25rem;
   box-sizing: border-box;
-  border: 0.1rem solid #999;
+  background-color: #d5f5e3;
+  border: 0.1rem solid #229954;
 }
 .form .form-list .input-field:focus {
   border-color: #000;
@@ -65,9 +66,16 @@
   vertical-align: top;
   height: 5rem;
 }
-.form .button {
+.form .form-list-button {
   padding-left: 4rem;
   margin-left: 0.5rem;
+}
+.form .form-list-button .submit-button {
+  background-color: #229954;
+  color: #fdfefe;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

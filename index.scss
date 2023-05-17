@@ -1,8 +1,7 @@
-$white: #ccc;
+$white: #fdfefe;
 $light-grey: #999;
 $dark-grey: #222021;
 $black: #000;
-$turquoise: #04aa6d;
 $light-green: #d5f5e3;
 $mid-green: #abebc6;
 $dark-green: #229954;
@@ -45,7 +44,7 @@ $very-dark-green: #186a3b;
     }
 
     .active {
-        background-color: $turquoise;
+        background-color: $dark-green;
     }
 }
 
@@ -65,7 +64,8 @@ $very-dark-green: #186a3b;
             font: 1rem sans-serif;
             width: 25rem;
             box-sizing: border-box;
-            border: 0.1rem solid $light-grey;
+            background-color: $light-green;
+            border: 0.1rem solid $dark-green;
         }
 
         .input-field:focus {
@@ -88,8 +88,16 @@ $very-dark-green: #186a3b;
         height: 5rem;
     }
 
-    .button {
+    .form-list-button {
         padding-left: 4rem;
         margin-left: 0.5rem;
+
+        .submit-button {
+            background-color: $dark-green;
+            color: $white;
+            border: none;
+            border-radius: 1rem;
+            padding: 1rem 1rem;
+        }
     }
 }
