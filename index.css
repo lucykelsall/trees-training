@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #999;
+  background-color: #222021;
 }
 .navbar .navbar-section {
   float: left;
@@ -51,8 +51,8 @@
   width: 4rem;
   text-align: right;
 }
-.form .form-list .form-list-item + .form-list-item {
-  margin-top: 1rem;
+.form .form-list .form-list-item {
+  margin-bottom: 1rem;
 }
 .form .user-message {
   vertical-align: top;

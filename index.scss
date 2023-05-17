@@ -1,5 +1,6 @@
 $white: #ccc;
-$grey: #999;
+$light-grey: #999;
+$dark-grey: #222021;
 $black: #000;
 $turquoise: #04aa6d;
 
@@ -13,7 +14,7 @@ $turquoise: #04aa6d;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: $grey;
+        background-color: $dark-grey;
     }
 
     .navbar-section {
@@ -52,7 +53,7 @@ $turquoise: #04aa6d;
             font: 1rem sans-serif;
             width: 25rem;
             box-sizing: border-box;
-            border: 0.1rem solid $grey;
+            border: 0.1rem solid $light-grey;
         }
 
         .input-field:focus {
@@ -65,8 +66,8 @@ $turquoise: #04aa6d;
             text-align: right;
         }
 
-        .form-list-item + .form-list-item {
-            margin-top: 1rem;
+        .form-list-item {
+            margin-bottom: 1rem;
         }
     }
 
