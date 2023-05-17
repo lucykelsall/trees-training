@@ -7,25 +7,16 @@ $mid-green: #abebc6;
 $dark-green: #229954;
 $very-dark-green: #186a3b;
 
+.header {
+    padding-left: 1rem;
+    //justify-content: center;
+}
+
 .body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     color: $very-dark-green;
     background-color: $light-green;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 1rem;
-    gap: 1rem;
-
-    .grid-item {
-        padding: 1rem;
-        border: 0.2rem solid $dark-green;
-        border-radius: 2rem;
-        background-color: $mid-green;
-    }
 }
 
 .navbar {
@@ -58,56 +49,73 @@ $very-dark-green: #186a3b;
     }
 }
 
-.form {
-    width: 30rem;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
     padding: 1rem;
-    border: 0.2rem solid $dark-green;
-    border-radius: 2rem;
-    background-color: $mid-green;
+    gap: 1rem;
 
-    .form-list {
-        list-style: none;
-        padding: 0;
-        //margin: 0;
-
-        .input-field {
-            font: 1rem sans-serif;
-            width: 25rem;
-            box-sizing: border-box;
-            background-color: $light-green;
-            border: 0.1rem solid $dark-green;
-        }
-
-        .input-field:focus {
-            border-color: $black;
-        }
-
-        .label {
-            display: inline-block;
-            width: 4rem;
-            text-align: right;
-        }
-
-        .form-list-item {
-            margin-bottom: 1rem;
-        }
+    .grid-item {
+        padding: 1rem;
+        border: 0.2rem solid $dark-green;
+        border-radius: 2rem;
+        background-color: $mid-green;
     }
+}
 
-    .user-message {
-        vertical-align: top;
-        height: 5rem;
-    }
+.form-container {
+    padding-left: 1rem;
 
-    .form-list-button {
-        padding-left: 4rem;
-        margin-left: 0.5rem;
+    .form {
+        width: 30rem;
+        padding: 1rem;
+        border: 0.2rem solid $dark-green;
+        border-radius: 2rem;
+        background-color: $mid-green;
 
-        .submit-button {
-            background-color: $dark-green;
-            color: $white;
-            border: none;
-            border-radius: 1rem;
-            padding: 1rem 1rem;
+        .form-list {
+            list-style: none;
+            padding: 0;
+
+            .input-field {
+                font: 1rem sans-serif;
+                width: 25rem;
+                box-sizing: border-box;
+                background-color: $light-green;
+                border: 0.1rem solid $dark-green;
+            }
+
+            .input-field:focus {
+                border-color: $black;
+            }
+
+            .label {
+                display: inline-block;
+                width: 4rem;
+                text-align: right;
+            }
+
+            .form-list-item {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .user-message {
+            vertical-align: top;
+            height: 5rem;
+        }
+
+        .form-list-button {
+            padding-left: 4rem;
+            margin-left: 0.5rem;
+
+            .submit-button {
+                background-color: $dark-green;
+                color: $white;
+                border: none;
+                border-radius: 1rem;
+                padding: 1rem 1rem;
+            }
         }
     }
 }

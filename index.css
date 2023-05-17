@@ -1,20 +1,11 @@
+.header {
+  padding-left: 1rem;
+}
+
 .body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #186a3b;
   background-color: #d5f5e3;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 1rem;
-  gap: 1rem;
-}
-.grid-container .grid-item {
-  padding: 1rem;
-  border: 0.2rem solid #229954;
-  border-radius: 2rem;
-  background-color: #abebc6;
 }
 
 .navbar .navbar-list {
@@ -41,44 +32,60 @@
   background-color: #229954;
 }
 
-.form {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+.grid-container .grid-item {
+  padding: 1rem;
+  border: 0.2rem solid #229954;
+  border-radius: 2rem;
+  background-color: #abebc6;
+}
+
+.form-container {
+  padding-left: 1rem;
+}
+.form-container .form {
   width: 30rem;
   padding: 1rem;
   border: 0.2rem solid #229954;
   border-radius: 2rem;
   background-color: #abebc6;
 }
-.form .form-list {
+.form-container .form .form-list {
   list-style: none;
   padding: 0;
 }
-.form .form-list .input-field {
+.form-container .form .form-list .input-field {
   font: 1rem sans-serif;
   width: 25rem;
   box-sizing: border-box;
   background-color: #d5f5e3;
   border: 0.1rem solid #229954;
 }
-.form .form-list .input-field:focus {
+.form-container .form .form-list .input-field:focus {
   border-color: #000;
 }
-.form .form-list .label {
+.form-container .form .form-list .label {
   display: inline-block;
   width: 4rem;
   text-align: right;
 }
-.form .form-list .form-list-item {
+.form-container .form .form-list .form-list-item {
   margin-bottom: 1rem;
 }
-.form .user-message {
+.form-container .form .user-message {
   vertical-align: top;
   height: 5rem;
 }
-.form .form-list-button {
+.form-container .form .form-list-button {
   padding-left: 4rem;
   margin-left: 0.5rem;
 }
-.form .form-list-button .submit-button {
+.form-container .form .form-list-button .submit-button {
   background-color: #229954;
   color: #fdfefe;
   border: none;
