@@ -3,10 +3,12 @@ $light-grey: #999;
 $dark-grey: #222021;
 $black: #000;
 $turquoise: #04aa6d;
+$light-green: #d5f5e3;
 
 .body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
+    background-color: $light-green;
 }
 
 .tree-list {
