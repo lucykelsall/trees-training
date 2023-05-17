@@ -14,8 +14,18 @@ $very-dark-green: #186a3b;
     background-color: $light-green;
 }
 
-.tree-list {
-    list-style: none;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+    gap: 1rem;
+
+    .grid-item {
+        padding: 1rem;
+        border: 0.2rem solid $dark-green;
+        border-radius: 2rem;
+        background-color: $mid-green;
+    }
 }
 
 .navbar {
@@ -58,7 +68,7 @@ $very-dark-green: #186a3b;
     .form-list {
         list-style: none;
         padding: 0;
-        margin: 0;
+        //margin: 0;
 
         .input-field {
             font: 1rem sans-serif;
