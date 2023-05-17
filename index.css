@@ -34,7 +34,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   padding: 1rem;
   gap: 1rem;
 }
@@ -43,6 +43,7 @@
   border: 0.2rem solid #229954;
   border-radius: 2rem;
   background-color: #abebc6;
+  text-align: center;
 }
 
 .form-container {
