@@ -3,21 +3,21 @@ $grey: #999;
 $black: #000;
 $turquoise: #04aa6d;
 
-form {
+.form {
     width: 30rem;
     padding: 1rem;
     border: 0.2rem solid $white;
     border-radius: 2rem;
-}
 
-.form-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+    .form-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 
-form li + li {
-    margin-top: 1rem;
+    li + li {
+        margin-top: 1rem;
+    }
 }
 
 label {
@@ -50,9 +50,6 @@ textarea {
 
 .button {
     padding-left: 4rem;
-}
-
-button {
     margin-left: 0.5rem;
 }
 

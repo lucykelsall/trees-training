@@ -1,17 +1,15 @@
-form {
+.form {
   width: 30rem;
   padding: 1rem;
   border: 0.2rem solid #ccc;
   border-radius: 2rem;
 }
-
-.form-list {
+.form .form-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-form li + li {
+.form li + li {
   margin-top: 1rem;
 }
 
@@ -45,9 +43,6 @@ textarea {
 
 .button {
   padding-left: 4rem;
-}
-
-button {
   margin-left: 0.5rem;
 }
 
