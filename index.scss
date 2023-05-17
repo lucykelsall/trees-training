@@ -68,10 +68,16 @@ $very-dark-green: #186a3b;
 
     .form {
         width: 30rem;
-        padding: 1rem;
+        padding: 0.2rem 1rem;
         border: 0.2rem solid $dark-green;
         border-radius: 2rem;
         background-color: $mid-green;
+
+        .form-header {
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+        }
 
         .form-list {
             list-style: none;

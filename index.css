@@ -50,10 +50,15 @@
 }
 .form-container .form {
   width: 30rem;
-  padding: 1rem;
+  padding: 0.2rem 1rem;
   border: 0.2rem solid #229954;
   border-radius: 2rem;
   background-color: #abebc6;
+}
+.form-container .form .form-header {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
 }
 .form-container .form .form-list {
   list-style: none;
