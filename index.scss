@@ -4,10 +4,14 @@ $dark-grey: #222021;
 $black: #000;
 $turquoise: #04aa6d;
 $light-green: #d5f5e3;
+$mid-green: #abebc6;
+$dark-green: #229954;
+$very-dark-green: #186a3b;
 
 .body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
+    color: $very-dark-green;
     background-color: $light-green;
 }
 
@@ -48,8 +52,9 @@ $light-green: #d5f5e3;
 .form {
     width: 30rem;
     padding: 1rem;
-    border: 0.2rem solid $white;
+    border: 0.2rem solid $dark-green;
     border-radius: 2rem;
+    background-color: $mid-green;
 
     .form-list {
         list-style: none;

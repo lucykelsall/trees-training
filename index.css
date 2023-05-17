@@ -1,5 +1,6 @@
 .body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #186a3b;
   background-color: #d5f5e3;
 }
 
@@ -34,8 +35,9 @@
 .form {
   width: 30rem;
   padding: 1rem;
-  border: 0.2rem solid #ccc;
+  border: 0.2rem solid #229954;
   border-radius: 2rem;
+  background-color: #abebc6;
 }
 .form .form-list {
   list-style: none;
