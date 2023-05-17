@@ -1,0 +1,77 @@
+form {
+  width: 30rem;
+  padding: 1rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 2rem;
+}
+
+.form-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1rem;
+}
+
+label {
+  display: inline-block;
+  width: 4rem;
+  text-align: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+textarea {
+  font: 1rem sans-serif;
+  width: 25rem;
+  box-sizing: border-box;
+  border: 0.1rem solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5rem;
+}
+
+.button {
+  padding-left: 4rem;
+}
+
+button {
+  margin-left: 0.5rem;
+}
+
+.navbar .navbar-list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #999;
+}
+.navbar .navbar-section {
+  float: left;
+}
+.navbar .navbar-section a {
+  display: block;
+  color: #ccc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar .navbar-section a:hover:not(.active) {
+  background-color: #000;
+}
+.navbar .active {
+  background-color: #04aa6d;
+}
+
+/*# sourceMappingURL=index.css.map */
