@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Some good trees in Lammas Park</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body class="body">
+		<nav class="navbar">
+			<ul class="navbar-list">
+				<li class="navbar-section"><a href="index.html">Home</a></li>
+				<li class="navbar-section active"><a href="lammas.html">Lammas Park</a></li>
+				<li class="navbar-section"><a href="walpole.html">Walpole Park</a></li>
+				<li class="navbar-section"><a href="#canary-wharf">Canary Wharf</a></li>
+			</ul>
+		</nav>
+		<h1 class="header">Some good trees in Lammas Park</h1>
+		<p>
+		<ul class="grid-container">
+			<div class="grid-item">
+				<h2 class="grid-item-header">
+				Grey Poplar
+				</h2>
+				<p class="grid-item-text">Some text about poplars</p>
+				<img src="images\grey-poplar.JPG" alt="Grey Poplar" width="250rem">
+			</div>
+			<div class="grid-item">
+				<h2 class="grid-item-header">Paul's Scarlet Hawthorn</h2>
+				<p class="grid-item-text">Some text about hawthorns</p>
+				<img src="images\pauls-scarlet-hawthorn.JPG" alt="Paul's Scarlet Hawthorn" width="250rem">
+			</div>
+			<div class="grid-item">
+				<h2 class="grid-item-header">Raywood Ash</h2>
+				<p class="grid-item-text">Some text about ashes</p>
+				<img src="images\raywood-ash.JPG" alt="Raywood Ash" width="250rem">
+			</div>
+			<div class="grid-item">
+				<h2 class="grid-item-header">White Weeping Willow</h2>
+				<p class="grid-item-text">Some text about willows</p>
+				<img src="images\white-weeping-willow.JPG" alt="White Weeping Willow" width="250rem">
+			</div>
+			<div class="grid-item">
+				<h2 class="grid-item-header">Red Horse Chestnut</h2>
+				<p class="grid-item-text">Some text about horse chestnuts</p>
+				<img src="images\red-horse-chestnut.JPG" alt="Red Horse Chestnut" width="250rem">
+			</div>
+		</ul>
+		</p>
+		<div class="form-container">
+			<form class="form" action="/tree-submissions" method="post">
+				<p class="form-header">Submit your own favourite tree below:</p>
+				<ul class="form-list">
+					<li class="form-list-item">
+						<label class="label" for="name">Name:</label>
+						<input class="input-field" type="text" id="name" name="user_name" />
+					</li>
+					<li class="form-list-item">
+						<label class="label" for="mail">Email:</label>
+						<input class="input-field" type="email" id="mail" name="user_email" />
+					</li>
+					<li class="form-list-item">
+						<label class="label" for="msg">Message:</label>
+						<textarea class="input-field user-message" id="msg" name="user_message"></textarea>
+					</li>
+					<li class="form-list-button">
+						<button class="submit-button" type="submit">Submit your tree</button>
+					</li>
+				</ul>
+			</form>
+		</div>
+	</body>
+
+</html>
