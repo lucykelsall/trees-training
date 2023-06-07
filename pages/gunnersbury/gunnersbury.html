@@ -23,94 +23,100 @@
                 </li>
             </ul>
         </nav>
-        <h1 class="header">Some good trees in Gunnersbury Park</h1>
-        <p class="text" role="main">
-            A description of Gunnersbury Park, its history and some of its
-            trees.
-        </p>
-        <div>
-            <div class="loader"></div>
-            <ul class="grid-container">
-                <div class="grid-item">
-                    <h2 class="grid-item-header">Paul's Scarlet Hawthorn</h2>
-                    <p class="grid-item-text">Some text about hawthorns</p>
-                    <img
-                        src="..\..\images\pauls-scarlet-hawthorn.JPG"
-                        alt="Paul's Scarlet Hawthorn"
-                        width="250rem"
-                    />
-                </div>
-                <div class="grid-item">
-                    <h2 class="grid-item-header">Grey Poplar</h2>
-                    <p class="grid-item-text">Some text about poplars</p>
-                    <img
-                        src="..\..\images\grey-poplar.JPG"
-                        alt="Grey Poplar"
-                        width="250rem"
-                    />
-                </div>
-                <div class="grid-item">
-                    <h2 class="grid-item-header">White Weeping Willow</h2>
-                    <p class="grid-item-text">
-                        Some text about weeping willows
-                    </p>
-                    <img
-                        src="..\..\images\white-weeping-willow.JPG"
-                        alt="White Weeping Willow"
-                        width="250rem"
-                    />
-                </div>
-                <div class="grid-item">
-                    <h2 class="grid-item-header">Corkscrew Willow</h2>
-                    <p class="grid-item-text">
-                        Some text about corkscrew willows
-                    </p>
-                    <img
-                        src="..\..\images\corkscrew-willow.JPG"
-                        alt="Corkscrew Willow"
-                        width="250rem"
-                    />
-                </div>
-            </ul>
-        </div>
-        <div class="form-container">
-            <form class="form" action="/tree-submissions" method="post">
-                <p class="form-header">Submit your own favourite tree below:</p>
-                <ul class="form-list">
-                    <li class="form-list-item">
-                        <label class="label" for="name">Name:</label>
-                        <input
-                            class="input-field"
-                            type="text"
-                            id="name"
-                            name="user_name"
+        <main>
+            <h1 class="header">Some good trees in Gunnersbury Park</h1>
+            <p class="text">
+                A description of Gunnersbury Park, its history and some of its
+                trees.
+            </p>
+            <div>
+                <div class="loader"></div>
+                <ul class="grid-container">
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">
+                            Paul's Scarlet Hawthorn
+                        </h2>
+                        <p class="grid-item-text">Some text about hawthorns</p>
+                        <img
+                            src="..\..\images\pauls-scarlet-hawthorn.JPG"
+                            alt="Paul's Scarlet Hawthorn"
+                            width="250rem"
                         />
-                    </li>
-                    <li class="form-list-item">
-                        <label class="label" for="mail">Email:</label>
-                        <input
-                            class="input-field"
-                            type="email"
-                            id="mail"
-                            name="user_email"
+                    </div>
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">Grey Poplar</h2>
+                        <p class="grid-item-text">Some text about poplars</p>
+                        <img
+                            src="..\..\images\grey-poplar.JPG"
+                            alt="Grey Poplar"
+                            width="250rem"
                         />
-                    </li>
-                    <li class="form-list-item">
-                        <label class="label" for="msg">Message:</label>
-                        <textarea
-                            class="input-field user-message"
-                            id="msg"
-                            name="user_message"
-                        ></textarea>
-                    </li>
-                    <li class="form-list-button">
-                        <button class="submit-button" type="submit">
-                            Submit your tree
-                        </button>
-                    </li>
+                    </div>
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">White Weeping Willow</h2>
+                        <p class="grid-item-text">
+                            Some text about weeping willows
+                        </p>
+                        <img
+                            src="..\..\images\white-weeping-willow.JPG"
+                            alt="White Weeping Willow"
+                            width="250rem"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">Corkscrew Willow</h2>
+                        <p class="grid-item-text">
+                            Some text about corkscrew willows
+                        </p>
+                        <img
+                            src="..\..\images\corkscrew-willow.JPG"
+                            alt="Corkscrew Willow"
+                            width="250rem"
+                        />
+                    </div>
                 </ul>
-            </form>
-        </div>
+            </div>
+            <div class="form-container">
+                <form class="form" action="/tree-submissions" method="post">
+                    <p class="form-header">
+                        Submit your own favourite tree below:
+                    </p>
+                    <ul class="form-list">
+                        <li class="form-list-item">
+                            <label class="label" for="name">Name:</label>
+                            <input
+                                class="input-field"
+                                type="text"
+                                id="name"
+                                name="user_name"
+                            />
+                        </li>
+                        <li class="form-list-item">
+                            <label class="label" for="mail">Email:</label>
+                            <input
+                                class="input-field"
+                                type="email"
+                                id="mail"
+                                name="user_email"
+                            />
+                        </li>
+                        <li class="form-list-item">
+                            <label class="label" for="msg">Message:</label>
+                            <textarea
+                                class="input-field user-message"
+                                id="msg"
+                                name="user_message"
+                            ></textarea>
+                        </li>
+                        <li class="form-list-button">
+                            <button class="submit-button" type="submit">
+                                Submit your tree
+                            </button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>
     </body>
 </html>
 

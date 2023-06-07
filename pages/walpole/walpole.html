@@ -25,91 +25,100 @@
                 </li>
             </ul>
         </nav>
-        <h1 class="header">Some good trees in Walpole Park</h1>
-        <p class="text" role="main">
-            A description of Walpole Park, its history and some of its trees.
-        </p>
-        <div>
-            <ul class="grid-container">
-                <div class="grid-item">
-                    <h2 class="grid-item-header">Swamp Cypress</h2>
-                    <p class="grid-item-text">
-                        Some text about swamp cypresses
-                    </p>
-                    <img
-                        src="..\..\images\swamp-cypress.JPG"
-                        alt="Swamp Cypress"
-                        width="250rem"
-                    />
-                </div>
-                <div class="grid-item">
-                    <h2 class="grid-item-header">Sweet Chestnut</h2>
-                    <p class="grid-item-text">
-                        Some text about sweet chestnuts
-                    </p>
-                    <img
-                        src="..\..\images\sweet-chestnut.JPG"
-                        alt="Sweet Chestnut"
-                        width="250rem"
-                    />
-                </div>
-                <div class="grid-item">
-                    <h2 class="grid-item-header">Manna Ash</h2>
-                    <p class="grid-item-text">Some text about manna ashes</p>
-                    <img
-                        src="..\..\images\manna-ash.JPG"
-                        alt="Manna Ash"
-                        width="250rem"
-                    />
-                </div>
-                <div class="grid-item">
-                    <h2 class="grid-item-header">False Acacia</h2>
-                    <p class="grid-item-text">Some text about false acacias</p>
-                    <img
-                        src="..\..\images\false-acacia.JPG"
-                        alt="False Acacia"
-                        width="250rem"
-                    />
-                </div>
-            </ul>
-        </div>
-        <div class="form-container">
-            <form class="form" action="/tree-submissions" method="post">
-                <p class="form-header">Submit your own favourite tree below:</p>
-                <ul class="form-list">
-                    <li class="form-list-item">
-                        <label class="label" for="name">Name:</label>
-                        <input
-                            class="input-field"
-                            type="text"
-                            id="name"
-                            name="user_name"
+        <main>
+            <h1 class="header">Some good trees in Walpole Park</h1>
+            <p class="text">
+                A description of Walpole Park, its history and some of its
+                trees.
+            </p>
+            <div>
+                <ul class="grid-container">
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">Swamp Cypress</h2>
+                        <p class="grid-item-text">
+                            Some text about swamp cypresses
+                        </p>
+                        <img
+                            src="..\..\images\swamp-cypress.JPG"
+                            alt="Swamp Cypress"
+                            width="250rem"
                         />
-                    </li>
-                    <li class="form-list-item">
-                        <label class="label" for="mail">Email:</label>
-                        <input
-                            class="input-field"
-                            type="email"
-                            id="mail"
-                            name="user_email"
+                    </div>
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">Sweet Chestnut</h2>
+                        <p class="grid-item-text">
+                            Some text about sweet chestnuts
+                        </p>
+                        <img
+                            src="..\..\images\sweet-chestnut.JPG"
+                            alt="Sweet Chestnut"
+                            width="250rem"
                         />
-                    </li>
-                    <li class="form-list-item">
-                        <label class="label" for="msg">Message:</label>
-                        <textarea
-                            class="input-field user-message"
-                            id="msg"
-                            name="user_message"
-                        ></textarea>
-                    </li>
-                    <li class="form-list-button">
-                        <button class="submit-button" type="submit">
-                            Submit your tree
-                        </button>
-                    </li>
+                    </div>
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">Manna Ash</h2>
+                        <p class="grid-item-text">
+                            Some text about manna ashes
+                        </p>
+                        <img
+                            src="..\..\images\manna-ash.JPG"
+                            alt="Manna Ash"
+                            width="250rem"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <h2 class="grid-item-header">False Acacia</h2>
+                        <p class="grid-item-text">
+                            Some text about false acacias
+                        </p>
+                        <img
+                            src="..\..\images\false-acacia.JPG"
+                            alt="False Acacia"
+                            width="250rem"
+                        />
+                    </div>
                 </ul>
-            </form>
-        </div>
+            </div>
+            <div class="form-container">
+                <form class="form" action="/tree-submissions" method="post">
+                    <p class="form-header">
+                        Submit your own favourite tree below:
+                    </p>
+                    <ul class="form-list">
+                        <li class="form-list-item">
+                            <label class="label" for="name">Name:</label>
+                            <input
+                                class="input-field"
+                                type="text"
+                                id="name"
+                                name="user_name"
+                            />
+                        </li>
+                        <li class="form-list-item">
+                            <label class="label" for="mail">Email:</label>
+                            <input
+                                class="input-field"
+                                type="email"
+                                id="mail"
+                                name="user_email"
+                            />
+                        </li>
+                        <li class="form-list-item">
+                            <label class="label" for="msg">Message:</label>
+                            <textarea
+                                class="input-field user-message"
+                                id="msg"
+                                name="user_message"
+                            ></textarea>
+                        </li>
+                        <li class="form-list-button">
+                            <button class="submit-button" type="submit">
+                                Submit your tree
+                            </button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>
     </body>
 </html>
