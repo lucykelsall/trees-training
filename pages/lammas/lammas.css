@@ -33,6 +33,10 @@
   background-color: #005c28;
 }
 
+.text {
+  padding: 1rem;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
