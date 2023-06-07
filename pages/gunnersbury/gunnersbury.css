@@ -4,8 +4,8 @@
 
 .body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #186a3b;
-  background-color: #d5f5e3;
+  color: #005c28;
+  background-color: #e2f6ea;
 }
 
 .navbar .navbar-list {
@@ -29,7 +29,7 @@
   background-color: #000;
 }
 .navbar .active {
-  background-color: #229954;
+  background-color: #005c28;
 }
 
 .grid-container {
@@ -40,9 +40,9 @@
 }
 .grid-container .grid-item {
   padding: 0 1rem 1rem;
-  border: 0.2rem solid #229954;
+  border: 0.2rem solid #005c28;
   border-radius: 2rem;
-  background-color: #abebc6;
+  background-color: #caeed9;
   text-align: center;
 }
 
@@ -52,9 +52,9 @@
 .form-container .form {
   width: 30rem;
   padding: 0.2rem 1rem;
-  border: 0.2rem solid #229954;
+  border: 0.2rem solid #005c28;
   border-radius: 2rem;
-  background-color: #abebc6;
+  background-color: #caeed9;
 }
 .form-container .form .form-header {
   font-weight: bold;
@@ -69,8 +69,8 @@
   font: 1rem sans-serif;
   width: 25rem;
   box-sizing: border-box;
-  background-color: #d5f5e3;
-  border: 0.1rem solid #229954;
+  background-color: #e2f6ea;
+  border: 0.1rem solid #005c28;
 }
 .form-container .form .form-list .input-field:focus {
   border-color: #000;
@@ -92,29 +92,22 @@
   margin-left: 0.5rem;
 }
 .form-container .form .form-list-button .submit-button {
-  background-color: #229954;
+  background-color: #005c28;
   color: #fdfefe;
   border: none;
   border-radius: 1rem;
   padding: 1rem 1rem;
 }
-.form-container .loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
+
+.loader {
+  border: 1rem solid #005c28;
+  border-top: 1rem solid #222021;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
+  width: 2rem;
+  height: 2rem;
   animation: spin 2s linear infinite;
 }
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);

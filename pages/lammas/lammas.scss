@@ -1,11 +1,4 @@
-$white: #fdfefe;
-$light-grey: #999;
-$dark-grey: #222021;
-$black: #000;
-$light-green: #d5f5e3;
-$mid-green: #abebc6;
-$dark-green: #229954;
-$very-dark-green: #186a3b;
+@use "../colors.scss";
 
 .header {
     padding: 0.5rem 1rem 0;
@@ -14,8 +7,8 @@ $very-dark-green: #186a3b;
 .body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-    color: $very-dark-green;
-    background-color: $light-green;
+    color: colors.$dark-green;
+    background-color: colors.$light-green;
 }
 
 .navbar {
@@ -24,7 +17,7 @@ $very-dark-green: #186a3b;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: $dark-grey;
+        background-color: colors.$dark-grey;
     }
 
     .navbar-section {
@@ -33,18 +26,18 @@ $very-dark-green: #186a3b;
 
     .navbar-section a {
         display: block;
-        color: $white;
+        color: colors.$white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
     }
 
     .navbar-section a:hover:not(.active) {
-        background-color: $black;
+        background-color: colors.$black;
     }
 
     .active {
-        background-color: $dark-green;
+        background-color: colors.$dark-green;
     }
 }
 
@@ -56,9 +49,9 @@ $very-dark-green: #186a3b;
 
     .grid-item {
         padding: 0 1rem 1rem;
-        border: 0.2rem solid $dark-green;
+        border: 0.2rem solid colors.$dark-green;
         border-radius: 2rem;
-        background-color: $mid-green;
+        background-color: colors.$mid-green;
         text-align: center;
     }
 }
@@ -69,9 +62,9 @@ $very-dark-green: #186a3b;
     .form {
         width: 30rem;
         padding: 0.2rem 1rem;
-        border: 0.2rem solid $dark-green;
+        border: 0.2rem solid colors.$dark-green;
         border-radius: 2rem;
-        background-color: $mid-green;
+        background-color: colors.$mid-green;
 
         .form-header {
             font-weight: bold;
@@ -87,12 +80,12 @@ $very-dark-green: #186a3b;
                 font: 1rem sans-serif;
                 width: 25rem;
                 box-sizing: border-box;
-                background-color: $light-green;
-                border: 0.1rem solid $dark-green;
+                background-color: colors.$light-green;
+                border: 0.1rem solid colors.$dark-green;
             }
 
             .input-field:focus {
-                border-color: $black;
+                border-color: colors.$black;
             }
 
             .label {
@@ -116,8 +109,8 @@ $very-dark-green: #186a3b;
             margin-left: 0.5rem;
 
             .submit-button {
-                background-color: $dark-green;
-                color: $white;
+                background-color: colors.$dark-green;
+                color: colors.$white;
                 border: none;
                 border-radius: 1rem;
                 padding: 1rem 1rem;
