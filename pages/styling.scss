@@ -10,6 +10,8 @@
     color: colors.$dark-green;
     background-color: colors.$light-green;
     font-size: 14pt;
+    max-width: 80rem;
+    min-width: 25rem;
 }
 
 .navbar {
@@ -40,10 +42,6 @@
     .active {
         background-color: colors.$dark-green;
     }
-}
-
-.main {
-    max-width: 80rem;
 }
 
 .text {
