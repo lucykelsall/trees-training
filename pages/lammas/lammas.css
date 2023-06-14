@@ -33,6 +33,10 @@
   background-color: #005c28;
 }
 
+.main {
+  max-width: 80rem;
+}
+
 .text {
   padding: 1rem;
 }
