@@ -5,7 +5,7 @@
 }
 
 .body {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
         sans-serif;
     color: colors.$dark-green;
     background-color: colors.$light-green;
@@ -49,7 +49,8 @@
 }
 
 .grid-container {
-    display: grid;
+    display: flex;
+    flex-flow: row wrap;
     grid-template-columns: auto auto;
     padding: 1rem;
     gap: 1rem;
