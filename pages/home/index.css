@@ -61,7 +61,7 @@
   padding-left: 1rem;
 }
 .form-container .form {
-  width: 30rem;
+  width: 31rem;
   padding: 0.2rem 1rem;
   border: 0.2rem solid #005c28;
   border-radius: 2rem;
@@ -88,7 +88,7 @@
 }
 .form-container .form .form-list .label {
   display: inline-block;
-  width: 4rem;
+  width: 5rem;
   text-align: right;
 }
 .form-container .form .form-list .form-list-item {
