@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="gunnersbury.css" />
     </head>
 
-    <body class="body" onload="loadingDelay()">
+    <body class="body">
         <nav class="navbar">
             <ul class="navbar-list">
                 <li class="navbar-section">
@@ -96,14 +96,3 @@
         </main>
     </body>
 </html>
-
-<script>
-    function loadingDelay() {
-        const timeout = setTimeout(showPage, 3000);
-    }
-
-    function showPage() {
-        document.getElementById("loader").style.display = "none";
-        //document.getElementById("myDiv").style.display = "block";
-    }
-</script>
